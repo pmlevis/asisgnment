@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{background-color:bisque}
+.begin-1{display: flex;}
+.text-container{font-size: 30px;}
+.begin-1 img{
+    width: 100px;
+    height: 300px;
+}
+.nav-menu{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    position:left;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color:gray;
+margin-right: 40px;}
+.nav-menu ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    text-transform: none;
+}
+.nav-menu ul a{
+    text-decoration: none;}
+.begin-1 img{
+    border-radius:20%;
+    height: 80px;
+}
+.background-text{
+    padding-top:  200px;
+    background-image: url(/image/background.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-text h4{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(156, 19, 19);
+    text-align: center;
+}
+.All{display:flex;
+    margin: 100px;
+    margin-left: 20px;}
+.begin-2{
+    display: flex;
+    background-color:green;
+    color: black;}
+.begin-2 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 200px;}
+.text-002{
+    display: flex;
+    margin-right: 30px;
+}
+.other-1{
+    display: flex;
+    background-color:greenyellow;}
+.other-1 img{
+    border-radius: 50%;
+    height: 350px;
+    width:  250px;}
+    .text-003{color: aquamarine;}
+.other-1, .begin-2{
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-right: 40px;
+}
+.begin-2 p, .other-003 p{
+    font-size:  30px;
+    font-family: 'Times New Roman', Times, serif;}
+    .contact-info{display: flex;}
+    .gender{margin-left: 200px;}
+    .certificates{margin-left: 200px;}
+    .hope{margin-left: 300px;}
+.table{margin-left: 500px;
+    margin-bottom: 100px;}
+      
+
+#button-send{
+    background-color:white;
+    border-radius: 100px;
+    color: blue;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px;
+    width: 100px;
+    height: 80px;
+}

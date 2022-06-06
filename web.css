@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-mean{
+    background-color: blue;
+    position: absolute;
+    width: 500%;
+    height: 90px;
+    text-decoration: none;
+    font-size: 80px;
+
+}
+.nav-mean ul li{
+     float: left;
+    margin-left: 30px;
+list-style-type: none;
+text-transform: uppercase;
+}
+.nav-mean ul a{
+    text-decoration: none;
+}
+.img-background{
+    padding-top: 200px;
+    background-image: url('./image/download.png');
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-background p{
+    color: black;
+}
+.nav-mean ul li:hover{
+    background-color: black;
+}
+.nav-mean ul li a:hover{
+    color: white;
+}
+
+.overall-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+    .img-container1 img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .img-container2 img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .text-container1, .text-conainer2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .text-container1 h1, .text-container2 h2{
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+    .text-container1 p, .text-container2 p{
+        color: red;
+    }
+    .contact-details{
+        padding-top: 100px;
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+    .contact-text{
+        margin-right: 45px;
+    }
+    .contact-text p{
+        font-size: 16px;
+        line-height: 100px;
+    }
+    .contact-form input{
+        width: 100vh;
+        border-radius: 50px;
+        height: 50px;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    textarea{height: 90px;
+             width: 80vh;
+    }
+    #button-submit{
+        height: 40px;
+        width: 100px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+     #button-submit:hover{
+         background-color: aqua;
+         color: black;
+     }
